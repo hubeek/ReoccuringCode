@@ -10,11 +10,8 @@ func reverse(_ str: String = "") -> String
 
 class StringReverseTests: XCTestCase {
  
-    var string: String?
-    
     override func setUp() {
         super.setUp()
-        string = "String"
     }
     
     override func tearDown() {
