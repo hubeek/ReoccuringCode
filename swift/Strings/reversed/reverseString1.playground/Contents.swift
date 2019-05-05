@@ -10,15 +10,6 @@ func reverse(_ str: String = "") -> String
 
 class StringReverseTests: XCTestCase {
  
-    override func setUp() {
-        super.setUp()
-    }
-    
-    override func tearDown() {
-        string = nil
-        super.tearDown()
-    }
-    
     func testReverseFunctionExists() {
         XCTAssertNotNil(reverse())
     }
