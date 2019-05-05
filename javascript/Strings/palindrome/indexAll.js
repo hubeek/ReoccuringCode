@@ -11,5 +11,10 @@ function palindrome(str) {
   const inverse = str.split('').reverse().join('');
   return inverse === str
 }
+function palindrome(str) {
+  return str.split('').every((c,i) => {
+    return c === str[str.length - i  - 1]
+  });
+}
 
 module.exports = palindrome;
