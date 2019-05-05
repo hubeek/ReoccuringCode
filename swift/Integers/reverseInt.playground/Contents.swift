@@ -11,9 +11,7 @@ import XCTest
 extension String: Error {}
 
 func reverse(integer n: Int) throws -> Int {
-    guard n != 0 else {
-        return 0
-    }
+    
     let nToString = String(abs(n))
     let splittedAndReversed = Array(nToString).reversed()
     var factor = 1
@@ -26,12 +24,7 @@ func reverse(integer n: Int) throws -> Int {
 }
 
 class ReverseIntegersTest: XCTestCase {
-    override func setUp() {
-        super.setUp()
-    }
-    override func tearDown() {
-        super.tearDown()
-    }
+    
     func testReversePositiveNumbers() {
         XCTAssertEqual(try reverse(integer: 1), 1)
         XCTAssertEqual(try reverse(integer: 12), 21)
