@@ -324,3 +324,8 @@ Temporary Items
 .apdisk
 .idea
 package-lock.json
+/dotnet/reoccurringcode/Grids/GridExperiments/ConsoleApp1/obj
+dotnet/blazorhostedinaspnetserver/blazorhostedinaspnetserver.Client/obj
+dotnet/blazorhostedinaspnetserver/blazorhostedinaspnetserver.Server/obj
+dotnet/blazorhostedinaspnetserver/blazorhostedinaspnetserver.Shared/obj
+dotnet/pitter6/pitter6/bin

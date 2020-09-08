@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GridCells", "Grids\GridExperiments\GridCells\GridCells.csproj", "{772C3E78-C810-481B-8F93-6DD9C1FCDF28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGridCells", "TestGridCells\TestGridCells.csproj", "{8F9E28DB-3978-485F-B08C-CA8519892E54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{772C3E78-C810-481B-8F93-6DD9C1FCDF28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{772C3E78-C810-481B-8F93-6DD9C1FCDF28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{772C3E78-C810-481B-8F93-6DD9C1FCDF28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{772C3E78-C810-481B-8F93-6DD9C1FCDF28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9E28DB-3978-485F-B08C-CA8519892E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9E28DB-3978-485F-B08C-CA8519892E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9E28DB-3978-485F-B08C-CA8519892E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9E28DB-3978-485F-B08C-CA8519892E54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
